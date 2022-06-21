@@ -11,7 +11,6 @@ Este é um jogo estilo banco imobiliário com algumas regras:
 
 Principais bibliotecas utilizadas:
 * random - utilizada para obter valores aleatórios para o custo das posições.
-* time - utilizado para contabilizar o tempo de execução do programa.
 * collections.Counter - Utilizado para realizar as contabilizações de valores de vitória.
 
 Estrutura do projeto:
