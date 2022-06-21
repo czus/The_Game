@@ -29,6 +29,7 @@ Estrutura do projeto:
 2. Rode o código game.py.
 
 ## Output
+```
 Das 300 partidas, 209 encerraram em timeout.
 ##################################################################################################################################
 Das 300 partidas jogadas, as partidas vencidas pelo jogador cauteloso totalizam: 62. Representando 20.67%
@@ -42,3 +43,4 @@ De todas as partidas onde houve um vencedor, as partidas vencidas pelo jogador a
 De todas as partidas onde houve um vencedor, as partidas vencidas pelo jogador exigente totalizam: 5. Representando 5.49%
 O comportamento com mais vitórias é: cauteloso
 A média de partidas não encerradas em timeout é de 281.0 rodadas
+```
