@@ -1,5 +1,4 @@
 import random
-import time
 from collections import Counter
 
 class Jogador:
@@ -134,7 +133,6 @@ def game_start():
 
 if __name__ == '__main__':
     print(f'The game')
-    start_game = time.time()
 
     lista_vencedores = []
     timeout_contador = 0
