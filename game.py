@@ -154,8 +154,16 @@ if __name__ == '__main__':
 
     print(f"Das 300 partidas, {timeout_contador} encerraram em timeout.")
 
+    print("#" * 130)
+
     for i, count in c.most_common():
         print(f"Das 300 partidas jogadas, as partidas vencidas pelo jogador {i} totalizam: {count}. Representando {round(count / 300 * 100, 2)}%")
+
+    print("#"*130)
+
+    for i, count in c.most_common():
+        print(f"De todas as partidas onde houve um vencedor, as partidas vencidas pelo jogador {i} totalizam: {count}. Representando {round(count / sum(c.values()) * 100, 2)}%")
+
 
     print(f"O comportamento com mais vitórias é: {max(set(lista_vencedores), key=lista_vencedores.count)}")
 
